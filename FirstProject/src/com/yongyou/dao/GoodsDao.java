@@ -1,21 +1,21 @@
 package com.yongyou.dao;
 
 import java.util.List;
-
+// hello world
 import com.yongyou.entity.Goods;
  
 
-// µÚÒ»´ÎĞŞ¸Ä
+// ç¬¬ä¸€æ¬¡ä¿®æ”¹
 public interface GoodsDao {
-	// ²éÑ¯ËùÓĞ
+	// æŸ¥è¯¢æ‰€æœ‰
 	public List<Goods> findGoods();
-	// Ôö¼Ó
+	// å¢åŠ 
 	public boolean addGoods(Goods goods);
-	// ¸ù¾İid²éÑ¯
+	// æ ¹æ®idæŸ¥è¯¢
 	public Goods queryById(int id);
-	//ĞŞ¸Ä
+	//ä¿®æ”¹
 	public boolean updateGoods(Goods goods);
-	// É¾³ı
+	// åˆ é™¤
 	public boolean deleteGoods(int id);
 
 }
