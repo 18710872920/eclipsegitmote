@@ -3,7 +3,9 @@ package com.yongyou.dao;
 import java.util.List;
 
 import com.yongyou.entity.Goods;
+ 
 
+// 第一次修改
 public interface GoodsDao {
 	// 查询所有
 	public List<Goods> findGoods();
